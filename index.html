@@ -21,145 +21,291 @@
   <header class=" sticky top-0">
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-white rounded shadow-md">
 
-        <div class="flex justify-between items-center h-16">
+      <div class="flex justify-between items-center h-16">
 
-          <!-- Logo -->
-          <a class="flex-shrink-0" href="index.html">
-            <img class="h-16 w-auto" src="./img/logo.png" alt="Askmeidentity Logo">
-          </a>
+        <!-- Logo -->
+        <a class="flex-shrink-0" href="index.html">
+          <img class="h-16 w-auto" src="./img/logo.png" alt="Askmeidentity Logo">
+        </a>
 
-          <!-- nav bar section -->
-          <div class="hidden md:block">
-            <ul class="flex space-x-4 font-medium text-sm text-gray-600">
-              <li><a href="#" class="hover:text-indigo-600 px-3 py-2 rounded-md transition duration-150">Home</a></li>
-              <li><a href="#" class="hover:text-indigo-600 px-3 py-2 rounded-md transition duration-150">About</a></li>
-              <li><a href="#" class="hover:text-indigo-600 px-3 py-2 rounded-md transition duration-150">Courses</a>
-              </li>
-              <li><a href="#" class="hover:text-indigo-600 px-3 py-2 rounded-md transition duration-150">Contact</a>
-              </li>
-            </ul>
+        <!-- nav bar section -->
+        <div class="hidden md:block">
+          <ul class="flex space-x-4 font-medium text-sm text-gray-600">
+            <li><a href="#" class="hover:text-indigo-600 px-3 py-2 rounded-md transition duration-150">Home</a></li>
+            <li><a href="#" class="hover:text-indigo-600 px-3 py-2 rounded-md transition duration-150">About</a></li>
+            <li><a href="#" class="hover:text-indigo-600 px-3 py-2 rounded-md transition duration-150">Courses</a>
+            </li>
+            <li><a href="#" class="hover:text-indigo-600 px-3 py-2 rounded-md transition duration-150">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="flex items-center space-x-4">
+
+          <div class=" flex-shrink-0 hidden md:block sm:flex items-center mr-20 space-x-4">
+            <button class="text-gray-500 hover:text-indigo-600 p-1transform transition hover:-translate-y-1   ">
+              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z">
+                </path>
+              </svg>
+            </button>
+            <button class="text-gray-500 hover:text-indigo-600 p-1 transform transition hover:-translate-y-1 ">
+              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z">
+                </path>
+              </svg>
+            </button>
+            <button class="text-gray-500 hover:text-indigo-600 p-1 transform transition hover:-translate-y-1 ">
+              <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+              </svg>
+
+            </button>
           </div>
 
-          <div class="flex items-center space-x-4">
+          <a href="#"
+            class="text-gray-600 hover:text-indigo-600 text-sm font-medium underline hidden md:block">Login</a>
 
-            <div class=" flex-shrink-0 hidden md:block sm:flex items-center mr-20 space-x-4">
-              <button class="text-gray-500 hover:text-indigo-600 p-1transform transition hover:-translate-y-1   ">
-                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z">
-                  </path>
-                </svg>
-              </button>
-              <button class="text-gray-500 hover:text-indigo-600 p-1 transform transition hover:-translate-y-1 ">
-                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z">
-                  </path>
-                </svg>
-              </button>
-              <button class="text-gray-500 hover:text-indigo-600 p-1 transform transition hover:-translate-y-1 ">
-                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                  stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                </svg>
+          <a href="#"
+            class="bg-gradient-to-br from-[#083F9B] to-[#7F56D9] text-white  transform transition hover:-translate-y-1 px-4 py-2 rounded-md text-sm font-medium shadow-lg transition duration-150 ease-in-out">Signup</a>
 
-              </button>
-            </div>
-
-            <a href="#"
-              class="text-gray-600 hover:text-indigo-600 text-sm font-medium underline hidden md:block">Login</a>
-
-            <a href="#"
-              class="bg-gradient-to-br from-[#083F9B] to-[#7F56D9] text-white  transform transition hover:-translate-y-1 px-4 py-2 rounded-md text-sm font-medium shadow-lg transition duration-150 ease-in-out">Signup</a>
-
-            <button class="md:hidden text-gray-500 hover:text-indigo-600 p-1">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                stroke="currentColor" class="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-              </svg>
+          <button class="md:hidden text-gray-500 hover:text-indigo-600 p-1">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main class="relative">
+    <div class="max-w-7xl mx-auto px-4">
+      <section class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 py-14 lg:py-24">
+        <div>
+          <p class="text-xs text-white pb-3">SUCCESSFUL COACHES ARE VISIONARIES</p>
+          <h1 class="text-4xl lg:text-6xl text-white ">
+            Good
+            <span class="bg-linear-to-r from-blue-600 to-blue-600 bg-clip-text text-transparent">
+              coaching
+            </span>
+            is good teaching & nothing else.
+          </h1>
+          <div class="mt-8 flex flex-wrap gap-4">
+            <a href="" class="flex items-center gap-2 rounded-xl text-white px-5 py-3 font-semibold ring-1">View
+              Courses</a>
+            <a href="" class="flex items-center gap-2 rounded-xl text-white px-5 py-3 font-semibold ">Get
+              Free Consultation</a>
+          </div>
+          <div class="mt-18  lg:w-103 flex items-stretch rounded   bg-white p-1">
+            <input type="text" placeholder="What do your want to learn?"
+              class="w-full bg-transparent px-4 py-3 placeholder-[#4F547B] focus:outline-none text-white" />
+            <button
+              class=" flex justify-between items-center  gap-2  bg-gradient-to-br from-[#083F9B] to-[#7F56D9] text-white  transform transition hover:-translate-y-0.5 px-10 py-2 rounded-xl text-sm font-medium shadow-lg transition duration-150 ease-in-out">
+              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z">
+                </path>
+              </svg> Search
             </button>
           </div>
         </div>
-      </section>
-  </header>
-      <main class="relative">
-        <div class="max-w-7xl mx-auto px-4">
-          <section class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 py-14 lg:py-24">
-            <div>
-              <p class="text-xs text-white pb-3">SUCCESSFUL COACHES ARE VISIONARIES</p>
-              <h1 class="text-4xl lg:text-6xl text-white ">
-                Good
-                <span class="bg-linear-to-r from-blue-600 to-blue-600 bg-clip-text text-transparent">
-                  coaching
-                </span>
-                is good teaching & nothing else.
-              </h1>
-              <div class="mt-8 flex flex-wrap gap-4">
-                <a href="" class="flex items-center gap-2 rounded-xl text-white px-5 py-3 font-semibold ring-1">View
-                  Courses</a>
-                <a href="" class="flex items-center gap-2 rounded-xl text-white px-5 py-3 font-semibold ">Get
-                  Free Consultation</a>
-              </div>
-              <div class="mt-18  lg:w-103 flex items-stretch rounded   bg-white p-1">
-                <input type="text" placeholder="What do your want to learn?"
-                  class="w-full bg-transparent px-4 py-3 placeholder-[#4F547B] focus:outline-none text-white" />
-                <button
-                  class=" flex justify-between items-center  gap-2  bg-gradient-to-br from-[#083F9B] to-[#7F56D9] text-white  transform transition hover:-translate-y-0.5 px-10 py-2 rounded-xl text-sm font-medium shadow-lg transition duration-150 ease-in-out">
-                  <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z">
-                    </path>
-                  </svg> Search
-                </button>
-              </div>
-            </div>
 
 
-            <div class="w-3/4 flex-grow relative overflow-hidden ">
-              <div class="absolute w-[170px] top-10  text-white z-2">
-                <h6>Shyam</h6>
-                <p class="text-xs font-light ">In a coaching role, you ask the questions and rely more on your
-                  staff, who become the experts, to provide the information.</p>
-              </div>
-              <div class="relative w-[450px] h-[450px] flex items-end justify-center">
-                <div class="absolute inset-0 z-1"></div>
-
-                <img src="./img/women-wo-bg.png" alt="Woman smiling"
-                  class="relative z-10 w-full h-auto max-h-[435px] object-contain pt-8">
-              </div>
-            </div>
-
-
-          </section>
-          <hr class="bg-[#7E08C7] opacity-40">
-          <!-- Hero Section Footer -->
-          <div class="bg-indigo py-8 px-8 lg:px-16 flex flex-wrap items-center justify-center gap-x-12 gap-y-6">
-            <img src="/img/hero-footer/spotify.png" alt="Spotify" class="h-8 opacity-100">
-            <img src="/img/hero-footer/amazon.png" alt="Amazon" class="h-8 opacity-100">
-            <img src="/img/hero-footer/spotify.png" alt="Spotify" class="h-8 opacity-100">
-            <img src="/img/hero-footer/cisco.png" alt="Cisco" class="h-8 opacity-100">
-            <img src="img/hero-footer/logitech.png" alt="Logitech" class="h-8 opacity-100">
-            <img src="img/hero-footer/amazon.png" alt="Amazon" class="h-8 opacity-100">
+        <div class="w-3/4 flex-grow relative overflow-hidden ">
+          <div class="absolute w-[170px] top-10  text-white z-2">
+            <h6>Shyam</h6>
+            <p class="text-xs font-light ">In a coaching role, you ask the questions and rely more on your
+              staff, who become the experts, to provide the information.</p>
           </div>
-          <hr class="bg-[#7E08C7] opacity-40">
+          <div class="relative w-[450px] h-[450px] flex items-end justify-center">
+            <div class="absolute inset-0 z-1"></div>
 
-      </main>
- 
+            <img src="./img/women-wo-bg.png" alt="Woman smiling"
+              class="relative z-10 w-full h-auto max-h-[435px] object-contain pt-8">
+          </div>
+        </div>
 
-  <!-- Feature Section -->
-  <section
-    class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-gradient-to-tr form-[#D9ECFF] to-[#F0F3FF] rounded shadow-md text-center">
-    <div class="relative mb-50">
-      <h2 class="text-4xl text-gray-600  font-bold">Featured <span
-          class="bg-linear-to-r from-blue-600 to-blue-600 bg-clip-text text-transparent">
-          Course
-        </span> </h2>
-      <p class="text-base text-gray-500">The feature courses are we invented our teaching part</p>
-    </div>
 
-    <!-- feature-cards -->
-    <div class="flex justify-between gap-20 pb-40">
-      <div class="basis-sm shrink-0 grow-0 bg-white overflow-hidden align-left">
-        <img src="./img/courses/course1.png" alt="Grapic-Design-Image">
+      </section>
+      <hr class="bg-[#7E08C7] opacity-40">
+      <!-- Hero Section Footer -->
+      <div class="bg-indigo py-8 px-8 lg:px-16 flex flex-wrap items-center justify-center gap-x-12 gap-y-6">
+        <img src="/img/hero-footer/spotify.png" alt="Spotify" class="h-8 opacity-100">
+        <img src="/img/hero-footer/amazon.png" alt="Amazon" class="h-8 opacity-100">
+        <img src="/img/hero-footer/spotify.png" alt="Spotify" class="h-8 opacity-100">
+        <img src="/img/hero-footer/cisco.png" alt="Cisco" class="h-8 opacity-100">
+        <img src="img/hero-footer/logitech.png" alt="Logitech" class="h-8 opacity-100">
+        <img src="img/hero-footer/amazon.png" alt="Amazon" class="h-8 opacity-100">
+      </div>
+      <hr class="bg-[#7E08C7] opacity-40">
+
+  </main>
+
+  <!-- Featured Section-->
+  <section class="bg-gray-50 py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="flex items-center justify-center mb-6">
+
+        <h2 class="text-4xl font-extrabold text-gray-900 leading-tight">
+          Featured <span class="text-indigo-600">Course</span>
+        </h2>
+      </div>
+      <p class="text-gray-600 text-lg mb-12">THE FEATURE COURSES ARE WE INVENTED OUR TEACHING PART</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <div
+          class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-start transition duration-300 hover:shadow-xl hover:-translate-y-1">
+          <div class="w-full h-48 bg-gray-100 rounded-xl mb-4 flex items-center justify-center overflow-hidden">
+            <img src="img/courses/course1.png" alt="Motion Graphics Course" class="w-full h-full object-cover">
+          </div>
+          <div class="flex justify-between w-full text-gray-500 text-xs mb-3">
+            <span>1,397 Students</span>
+            <span>2h 45m</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2 text-left">Motion Graphics: Create a Nice Typography Animation
+          </h3>
+          <div class="flex justify-between items-center w-full mt-auto pt-4 border-t border-gray-100">
+            <span class="text-xl font-extrabold text-indigo-600">Rs.499</span>
+            <button aria-label="Add to cart" class="text-gray-400 hover:text-indigo-600 transition duration-150">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+              </svg>
+
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-start transition duration-300 hover:shadow-xl hover:-translate-y-1">
+          <div class="w-full h-48 bg-gray-100 rounded-xl mb-4 flex items-center justify-center overflow-hidden">
+            <img src="./img/courses/course2.png" alt="Advance PHP Course" class="w-full h-full object-cover">
+          </div>
+          <div class="flex justify-between w-full text-gray-500 text-xs mb-3">
+            <span>5,315 Students</span>
+            <span>3h 50m</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2 text-left">Advance PHP knowledge with JS to make smart web
+          </h3>
+          <div class="flex justify-between items-center w-full mt-auto pt-4 border-t border-gray-100">
+            <span class="text-xl font-extrabold text-indigo-600">Rs.499</span>
+            <button aria-label="Add to cart" class="text-gray-400 hover:text-indigo-600 transition duration-150">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+              </svg>
+
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-start transition duration-300 hover:shadow-xl hover:-translate-y-1">
+          <div class="w-full h-48 bg-gray-100 rounded-xl mb-4 flex items-center justify-center overflow-hidden">
+            <img src="./img/courses/course3.png" alt="Education Software Course" class="w-full h-full object-cover">
+          </div>
+          <div class="flex justify-between w-full text-gray-500 text-xs mb-3">
+            <span>2,957 Students</span>
+            <span>1h 45m</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2 text-left">Education Software and PHP and JS System Script
+          </h3>
+          <div class="flex justify-between items-center w-full mt-auto pt-4 border-t border-gray-100">
+            <span class="text-xl font-extrabold text-indigo-600">Rs.499</span>
+            <button aria-label="Add to cart" class="text-gray-400 hover:text-indigo-600 transition duration-150">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+              </svg>
+
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-start transition duration-300 hover:shadow-xl hover:-translate-y-1">
+          <div class="w-full h-48 bg-gray-100 rounded-xl mb-4 flex items-center justify-center overflow-hidden">
+            <img src="./img/courses/course4.png" alt="Financial Analyst Course" class="w-full h-full object-cover">
+          </div>
+          <div class="flex justify-between w-full text-gray-500 text-xs mb-3">
+            <span>5,457 Students</span>
+            <span>9h 40m</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2 text-left">The Complete Financial Analyst Training & Investing
+          </h3>
+          <div class="flex justify-between items-center w-full mt-auto pt-4 border-t border-gray-100">
+            <span class="text-xl font-extrabold text-indigo-600">Rs.499</span>
+            <button aria-label="Add to cart" class="text-gray-400 hover:text-indigo-600 transition duration-150">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+              </svg>
+
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-start transition duration-300 hover:shadow-xl hover:-translate-y-1">
+          <div class="w-full h-48 bg-gray-100 rounded-xl mb-4 flex items-center justify-center overflow-hidden">
+            <img src="img/courses/course5.png" alt="Marketing 2023 Course" class="w-full h-full object-cover">
+          </div>
+          <div class="flex justify-between w-full text-gray-500 text-xs mb-3">
+            <span>1,385 Students</span>
+            <span>2h 10m</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2 text-left">Marketing 2023: Complete Guide To Instagram Growth
+          </h3>
+          <div class="flex justify-between items-center w-full mt-auto pt-4 border-t border-gray-100">
+            <span class="text-xl font-extrabold text-indigo-600">Rs.499</span>
+            <button aria-label="Add to cart" class="text-gray-400 hover:text-indigo-600 transition duration-150">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+              </svg>
+
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-start transition duration-300 hover:shadow-xl hover:-translate-y-1">
+          <div class="w-full h-48 bg-gray-100 rounded-xl mb-4 flex items-center justify-center overflow-hidden">
+            <img src="./img/courses/course6.png" alt="3D Modelling Course" class="w-full h-full object-cover">
+          </div>
+          <div class="flex justify-between w-full text-gray-500 text-xs mb-3">
+            <span>658 Students</span>
+            <span>3h 05m</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2 text-left">Learn 3D Modelling and Design for Beginners</h3>
+          <div class="flex justify-between items-center w-full mt-auto pt-4 border-t border-gray-100">
+            <span class="text-xl font-extrabold text-indigo-600">Rs.499</span>
+            <button aria-label="Add to cart" class="text-gray-400 hover:text-indigo-600 transition duration-150">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+              </svg>
+
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mt-16">
+        <a href="#all-courses"
+          class="inline-flex items-center justify-center bg-gradient-to-br from-[#083F9B] to-[#7F56D9] text-white px-8 py-3 rounded-xl text-base font-medium shadow-lg transition duration-300 ease-in-out hover:shadow-xl hover:-translate-y-0.5">
+          Explore Courses
+        </a>
       </div>
     </div>
   </section>
